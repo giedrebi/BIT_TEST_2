@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap');
+
+body {
+    background-color: #E7E9FE;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+section {
+    background-color: #FDFEFF;
+    margin: 70px 350px;
+    padding: 5px 30px;
+}
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    justify-content: center;
+}
+h1 {
+    color: #0008F1;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+p {
+    color: #4CE1B7;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.short {
+    height: 40px;
+    flex: 42%;
+}
+.long {
+    flex: 90%;
+}
+.input {
+    border: none;
+    border-radius: 7px;
+    padding-left: 18px;
+    margin-bottom: 1rem;
+}
+::placeholder {
+    color: #0008F1;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: bold;
+}
+#name , #email {
+    margin-right: 15px;
+}
+#name , #surname {
+    background-color: #E7E9FE;
+}
+#email , #phone {
+    background-color: #DDE0FF;
+}
+#address {
+    height: 40px;
+    background-color: #C7CDFD;
+}
+#message {
+    background-color: #A5B1FD;
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+#button {
+    background-color: #233BF5;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 50px;
+    color: white;
+}
